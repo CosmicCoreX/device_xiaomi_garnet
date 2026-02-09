@@ -247,3 +247,6 @@ vendor.netflix.bsp_rev=Q6450-36256-1
 
 # Vendor
 include vendor/xiaomi/garnet/BoardConfigVendor.mk
+
+# Vendor MiuiCamera
+-include device/xiaomi/garnet-miuicamera/BoardConfig.mk
