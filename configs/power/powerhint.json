@@ -114,7 +114,8 @@
       "Values": [
         "0",
         "30",
-        "50"
+        "50",
+        "70"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": true
