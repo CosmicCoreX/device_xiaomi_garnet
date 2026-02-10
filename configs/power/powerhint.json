@@ -352,7 +352,7 @@
       "PowerHint": "INTERACTION",
       "Node": "UclampTAMin",
       "Duration": 0,
-      "Value": "30"
+      "Value": "50"
     },
     {
       "PowerHint": "INTERACTION",
@@ -472,7 +472,7 @@
       "PowerHint": "LAUNCH",
       "Node": "UclampTAMin",
       "Duration": 3000,
-      "Value": "50"
+      "Value": "70"
     },
     {
       "PowerHint": "LAUNCH",
