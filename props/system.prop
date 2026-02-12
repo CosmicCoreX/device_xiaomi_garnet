@@ -4,6 +4,9 @@ persist.vendor.cne.feature=1
 # Device
 ro.product.mod_device=garnet_global
 
+# Display
+ro.sf.lcd_density=440
+
 # QTI
 ro.vendor.qti.va_aosp.support=1
 
