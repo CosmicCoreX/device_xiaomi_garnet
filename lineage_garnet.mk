@@ -15,6 +15,20 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
+# Flgs
+TARGET_DISABLE_EPPE := true
+TARGET_INCLUDES_LOS_PREBUILTS := true
+
+# AXION
+AXION_MAINTAINER := Z_E_U_S
+AXION_PROCESSOR := Snapdragon®_7s_Gen_2
+AXION_CAMERA_REAR_INFO := 200/64,8,2
+AXION_CAMERA_FRONT_INFO := 16
+
+TARGET_HAS_UDFPS := true
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := lineage_garnet
 PRODUCT_DEVICE := garnet
 PRODUCT_MANUFACTURER := Xiaomi
