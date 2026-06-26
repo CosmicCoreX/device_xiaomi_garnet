@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/garnet/device.mk)
 
 # Flgs
 TARGET_DISABLE_EPPE := true
-TARGET_INCLUDES_LOS_PREBUILTS := true
+TARGET_INCLUDES_LOS_PREBUILTS := false
 
 # AXION
 AXION_MAINTAINER := Z_E_U_S
