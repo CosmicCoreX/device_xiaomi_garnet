@@ -15,11 +15,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
-LUNARIS_BUILD_TYPE := OFFICIAL
+LUNARIS_BUILD_TYPE := UNOFFICIAL
 SURFACE_FLINGER_BOOST := true
-TARGET_ENABLE_BLUR := false
+TARGET_ENABLE_BLUR := true
 TARGET_USE_MAPS := true
 TARGET_USE_FILES := true
+TARGET_CUSTOM_UDFPS := true
+USE_REALITY_ENGINE := true
+TARGET_OPTIMIZED_DEXOPT := true
 
 #GMS
 WITH_GMS := true
