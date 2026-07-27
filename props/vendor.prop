@@ -177,6 +177,7 @@ vendor.audio.dolby.ds2.hardbypass=false
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+vendor.perf.framepacing.enable=1
 
 # Radio
 persist.dbg.volte_avail_ovr=1
