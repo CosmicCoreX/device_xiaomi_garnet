@@ -15,11 +15,20 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
 
-# EvolutionX Config
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_BUILD_APERTURE_CAMERA := false
-TARGET_DISABLE_EPPE := true
+# Lunaris Config
+LUNARIS_BUILD_TYPE := UNOFFICIAL
+SURFACE_FLINGER_BOOST := true
+TARGET_ENABLE_BLUR := true
+TARGET_USE_MAPS := true
+TARGET_USE_FILES := true
 TARGET_HAS_UDFPS := true
+TARGET_CUSTOM_UDFPS := true
+USE_REALITY_ENGINE := true
+TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_BOOT_ANIMATION_RES := 1080
+
+#GMS
+WITH_GMS := true
 
 PRODUCT_NAME := lineage_garnet
 PRODUCT_DEVICE := garnet
