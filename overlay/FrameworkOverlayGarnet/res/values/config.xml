@@ -854,6 +854,9 @@
          fp screen off unlock-->
     <bool name="config_screen_off_udfps_default_on">true</bool>
 
+     <!-- Turbulence effect -->
+    <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
+
     <!-- Default files to pin via Pinner Service -->
     <string-array name="config_defaultPinnerServiceFiles">
         <item>/apex/com.android.art/javalib/core-oj.jar</item>
