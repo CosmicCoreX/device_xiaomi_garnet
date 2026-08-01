@@ -193,6 +193,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# Netflix
+vendor.netflix.bsp_rev=Q6450-36256-1
+
 # Sepolicy
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
