@@ -9,11 +9,25 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Lunaris stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from garnet device
 $(call inherit-product, device/xiaomi/garnet/device.mk)
+
+LUNARIS_BUILD_TYPE := UNOFFICIAL
+SURFACE_FLINGER_BOOST := true
+TARGET_ENABLE_BLUR := true
+TARGET_USE_MAPS := true
+TARGET_USE_FILES := true
+TARGET_CUSTOM_UDFPS := true
+USE_REALITY_ENGINE := true
+
+#GMS
+WITH_GMS := true
+
+TARGET_HAS_UDFPS := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := lineage_garnet
 PRODUCT_DEVICE := garnet
