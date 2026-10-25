@@ -198,6 +198,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 vendor.netflix.bsp_rev=Q6450-36256-1
 
 # Sepolicy
+include device/lineage/sepolicy/libion/sepolicy.mk
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
